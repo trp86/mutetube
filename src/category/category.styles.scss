@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.category-container {
+  height: 550px;
+
+  .category-bg {
+    background: linear-gradient(
+      to right,
+      yellow,
+      rgba(244, 248, 7, 0.356),
+      yellow
+    );
+    // margin-top: 30px;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+    .category-flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 40%;
+
+      .category-title-main h1 {
+        font-family: "Monsieur La Doulaise", cursive;
+        font-size: 60px;
+        padding-top: 20px;
+        color: rgba(121, 19, 104, 0.904);
+        margin-left: 180px;
+        margin-top: 140px;
+        font-weight: bolder;
+      }
+
+      .category-content h1 {
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: start;
+        margin-left: 170px;
+        width: 400px;
+        color: rgb(63, 50, 50);
+      }
+    }
+    .category-carousel-container {
+      margin-right: 100px;
+      margin-top: 60px;
+    }
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+  .category-container {
+    height: 550px;
+  
+    .category-bg {
+      background: linear-gradient(
+        to right,
+        yellow,
+        rgba(244, 248, 7, 0.356),
+        yellow
+      );
+      margin-top: 30px;
+      height: 550px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      
+  
+      .category-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 40%;
+        margin-left:20px;
+        
+  
+        .category-title-main h1 {
+          font-family: "Monsieur La Doulaise", cursive;
+          font-size: 40px;
+          padding-top: 20px;
+          color: rgba(121, 19, 104, 0.904);
+          margin-left: 70px;
+          margin-top: 140px;
+          font-weight: bolder;
+        }
+  
+        .category-content h1 {
+          font-size: 15px;
+          margin-top: 10px;
+          text-align: start;
+          margin-left: 70px;
+          width: 200px;
+          color: rgb(63, 50, 50);
+        }
+        .category-carousel-container {
+          margin-right: 0px;
+          margin-top: 0px;
+        }
+      }
+      
+    }
+  }
+    
+}

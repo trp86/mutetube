@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-head{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    /* height: 800px; */
+    position:absolute;
+    width: 100%;
+    
+    top: 0;
+    
+
+}
+.nav-bar{
+        display: flex;
+        padding-right: 40px;
+        padding-top: 15px;
+        height: 103px;
+        justify-content: space-between;
+        align-items: center;
+        gap:12px;
+}
+.menu-bar div{
+    width: 30px;
+	  height: 4px;
+	  background-color: blueviolet;
+      margin-bottom: 10px;
+	  margin-top: 6px;
+}
+.nav-link{
+    text-decoration: none;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav-link h2:hover{
+  
+   color: white;
+
+}
+
+.title h1{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+    color: blueviolet;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+.title :hover{
+    width: 270px;
+    transform: translateX(-10px);
+    color: white;
+    font-size: 52px;
+    border: 2px solid blueviolet;
+    margin-top: 5px;
+    border-radius: 8px;
+    
+    
+}
+/* .carousel-main{
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    top: -490px;
+    left: 150px;
+} */
+@media screen and (min-width:300px) and (max-width: 600px) {
+    
+    .content-head{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-right: 10px;
+        position:absolute;
+        width: 400px;
+        
+        .title h1{
+            font-size: 35px;
+            }
+        }
+        
+}

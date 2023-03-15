@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+    .video-container2{
+      position: relative;
+      height: 700px;
+
+      .content-main{
+        position:absolute;
+        bottom: 90px;
+        left: 40px;
+        color: white;
+        width: 50%;
+
+        h1{
+          transition: all 0.5s;
+        }
+        h1:hover{
+          transform: translateX(100px);
+        }
+      }
+    }
+
+    

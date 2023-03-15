@@ -1,0 +1,9 @@
+
+.carousel-class h1{
+    text-align: center;
+    /* height: 100px; */
+    color: white
+}
+.carousel-class{
+    height: 0;
+}
